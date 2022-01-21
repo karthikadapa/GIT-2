@@ -7,4 +7,4 @@ from .models import KarthikModel
 class KarthikSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = KarthikModel
-        fields = ('name','id1','salary')
+        fields = ('name','id1','salary','Adress')
